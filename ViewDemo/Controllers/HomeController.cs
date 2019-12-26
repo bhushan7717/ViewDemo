@@ -38,7 +38,8 @@ namespace ViewDemo.Controllers
         [HttpPost]
         public ActionResult Edit(Employee e)
         {
-            emplist.Add(e);
+            // commented edit post action
+            //emplist.Add(e);
             return View("Index", emplist);
         }
     }
